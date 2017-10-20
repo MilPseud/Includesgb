@@ -1,0 +1,16 @@
+﻿<privacy id="3" name="custom" status="1">
+    <identity>
+        <enabled>1</enabled>
+        <configured>0</configured>
+        <super_rules>0</super_rules>
+    </identity>
+    <registry>
+        <enabled>0</enabled>
+    </registry>
+    <cookie>
+        <enabled>0</enabled>
+    </cookie>
+    <script>
+        <enabled>0</enabled>
+    </script>
+</privacy>

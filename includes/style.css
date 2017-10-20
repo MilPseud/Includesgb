@@ -1,0 +1,384 @@
+@font-face 
+{
+    font-family: minecraft;
+    src: url('minecraft.ttf');
+}
+
+* { font-family: minecraft; }
+
+.footer
+{
+	text-align: center;
+	background-color: black;
+	color: white;
+	padding: 0.5%
+}
+.header
+{
+	background-image: url('/pics/Header.png');
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.main
+{
+	padding: 1%;	
+	background-color: #A88210;
+	margin: 5px;
+	border: 1.5px solid gold;
+}
+.alertrouge
+{
+	padding: 1%;	
+	background-color: #A0522D;
+	margin: 5px;
+	border: 1.5px solid #8B4513;
+}
+.alert
+{
+	padding: 1%;	
+	background-color: #808080;
+	margin: 5px;
+	border: 1.5px solid #C0C0C0;
+}
+.nav
+{
+	margin: 5px;
+	padding: 1%;
+	border: gold double 2px;
+	background-color: #CD853F;
+}
+.nav ul li
+{
+	list-style-type: none;
+	text-align: center;
+	border: #CD853F 1.5px solid;
+}
+.link
+{
+	border: dashed 1px #A45A0B;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.link:hover
+{
+	background-color: #EFA96F ;
+}
+a
+{
+	text-decoration: none;
+	color: black;
+}
+a:hover
+{
+	color: white;
+}
+body
+{
+	margin : 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main_content {
+    background: #C0C0C0;
+    font-family: minecraft;
+    position: relative;
+    left: 5px;
+    font-weight: normal;
+    margin-bottom: 0px;
+    font-size: 14px;
+    right: 10px;
+    border: 2px solid #808080;
+    min-height: 240px;
+    padding-bottom: 8px;
+
+}
+
+#navdiv_top {
+    width: 192px;
+    height: 64px;
+    padding-top: 5px;
+    margin-top: -5px;
+    background: url(../pics/nav_top.png) no-repeat;
+    display: block;
+}
+
+#navdiv {
+    padding-top: 5px;
+    margin-top: -5px;
+    width: 192px;
+    height: 64px;
+    background: url(../pics/nav_content.png) no-repeat;
+    display: block;
+}
+
+#navdiv_bottom {
+    width: 192px;
+    height: 64px;
+    padding-top: 5px;
+    margin-top: -5px;
+    background: url(../pics/nav_bottom.png) no-repeat;
+    display: block;
+}
+
+
+.title {
+	font-family: minecraft;
+	font-size: 20px;
+    padding-left: 100px;
+}
+
+.minecraftlogo {
+    padding-bottom: 1px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+	background-color: #C0C0C0;
+	border: 2px solid #808080;
+	font-family: minecraft;
+	border-radius: 5px;
+}
+
+input[type=submit] {
+	font-family: minecraft;
+	border-radius: 5px;
+	height: 30px;
+	background-color: #A0522D;
+	border-color: #A0522D;
+}
+
+input[type=submit]:hover {
+        background-color: #8B4513;
+	border-color: #8B4513;
+	cursor: pointer;
+}
+
+input[type=button] {
+	font-family: minecraft;
+	border-radius: 5px;
+	height: 30px;
+	background-color: #A0522D;
+	border-color: #A0522D;
+
+}
+
+input[type=button]:hover {
+    background-color: #8B4513;
+	border-color: #8B4513;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #808080;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #808080;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #808080;
+  opacity: 1;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #808080;
+  opacity: 1;
+}
+
+
+.transparent {
+            background-color: transparent;
+            border: transparent;
+            cursor:pointer;
+            overflow: hidden;
+            outline:none;
+}
+
+.perso
+{
+	border-collapse: collapse;
+    border-style: none;
+    margin: auto;
+    width: 750px;
+}
+
+.perso img	{	vertical-align: middle;		}
+
+.perso th
+{
+	font-size:15px;
+	text-align:left;
+	padding:10px;
+}
+
+.perso td
+{
+	font-size:15px;
+	padding:10px;
+}
+
+.pnjtable td
+{
+	background-color: #C0C0C0;
+	border: 4px #808080 solid;
+	padding-right : 5px;
+	padding-left : 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.pnjtable img{
+	border-radius: 10px;
+}
+
+.pnjtable
+{
+	padding : 20px;
+	border: 3px #8B4513 solid;
+	background-color: #A0522D;
+}
+
+.chatbox
+{
+	padding: 1%;	
+	background-color: #A0522D;
+	margin: 5px;
+	border: 1.5px solid #8B4513;
+}
+
+.imghover
+{
+	box-shadow: 0px 0px 20px black;
+	transition: box-shadow 0.5s;
+}
+
+.imghover:hover
+{
+	box-shadow: 0px 0px 40px black;
+}
+
+.closebtn{
+    color: black;
+    cursor: pointer;
+}
+
+.closebtn:hover{
+    color: white;
+}
+.achievementtable
+{
+	border-collapse:collapse;
+}
+
+.achievementtable td
+{
+	background-color: #C0C0C0;
+	border: 1px #808080 solid;
+	padding-right : 5px;
+	padding-left : 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+.achievementtablemj
+{
+	border-collapse:collapse;
+}
+
+.achievementtablemj td
+{
+	background-color: #C0C0C0;
+	border: 1px #808080 solid;
+	padding-right : 5px;
+	padding-left : 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	height: 100px;
+	text-align: center;
+}
+
+.username-detail
+{
+	font-weight: bold;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.mptable
+{
+	padding : 20px;
+	border: 3px #8B4513 solid;
+	background-color: #A0522D;
+}
+
+.mptable td
+{
+	background-color: #C0C0C0;
+	border: 2px #808080 solid;
+	padding-right : 5px;
+	padding-left : 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.seal
+{
+    position: absolute;
+    top: -64px;
+    right: 500px;
+}
+
+.navrefused
+{
+	margin: 5px;
+	padding: 1%;
+	border: #FF5555 double 2px;
+	background-color: #B91B1B;
+}
+.navrefused ul li
+{
+	list-style-type: none;
+	text-align: center;
+	border: #AA0000 1.5px solid;
+}
+.linkrefused
+{
+	border: dashed 1px #FF5555;
+	background-color: #CD853F;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.linkrefused:hover
+{
+	background-color: #EFA96F ;
+}
+
+.navvalid
+{
+	margin: 5px;
+	padding: 1%;
+	border: #55FF55 double 2px;
+	background-color: #1BC51B;
+}
+.navvalid ul li
+{
+	list-style-type: none;
+	text-align: center;
+	border: #00AA00 1.5px solid;
+}
+.linkvalid
+{
+	border: dashed 1px #55FF55;
+	background-color: #CD853F;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+.linkvalid:hover
+{
+	background-color: #EFA96F ;
+}
